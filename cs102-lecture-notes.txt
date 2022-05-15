@@ -1,0 +1,7 @@
+git clone : It copies the git repository .
+git add : prepare/stage files to be in repository.
+git commmit :  To save the files in repository permanently .
+git push : To transfer files from local machine to server . 
+git pull : To add/transfer files from advance server to our device . 
+git version : It is use to check whether git is installed or not .
+git status : To check the latest update/ condition of our branch . 

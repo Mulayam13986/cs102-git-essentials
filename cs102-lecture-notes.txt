@@ -1,7 +1,48 @@
-git clone : It copies the git repository .
-git add : prepare/stage files to be in repository.
-git commmit :  To save the files in repository permanently .
-git push : To transfer files from local machine to server . 
-git pull : To add/transfer files from advance server to our device . 
-git version : It is use to check whether git is installed or not .
-git status : To check the latest update/ condition of our branch . 
+lect-12 (last lec on git)
+
+git version : It is use to check whether git is installed or not 
+git clone : It copies the remote repository .
+command : git clone "ssh url of repository"
+
+To generate id_rsa or key , use command :
+ssh-keygen -t RSA 
+
+We have to config some settings like global user name and global user-email .
+command : git config --global user.name "Mulayam13986"
+
+git add : prepare/stage files to be in repository. We have to use git add for all files if we want 
+          commit files .
+
+git commit :  To save the files in repository permanently .
+	       To see the commit history use command :- git log .
+
+git push : To transfer files from local machine to server . It helps to take all the code from our
+          local to the git server / remote repository .
+
+git pull : To add/transfer files from advance server to our device . If repository more advance 
+           than our personal device due to other contributions on server . We can get exact source 
+	   code by using pull .
+
+git status : To check the latest update/ condition of our branch . It will show next step like we
+            have done git add , it will show to commit it then push it .and then will show your 
+	    branch is upto date .
+
+
+lec-13 (on the day this lab was posted ) :
+Introduction of markdown language and its history .
+It is one of the easiest to use and .md is used as its file extension.
+Introduction of VS code (editor) to write markdown code .
+One "#" represent title .
+Then "##" represent subtitle / subsection.
+More No. of # represent more no. of subsections of subsections .
+Example :"###" represent subsection of section .
+# Title
+this is title 
+## Section1 
+this is sample section.
+### subsection 1.1
+subsection
+## section2
+
+We can also change text to bold by using  ** text ** .
+
